@@ -153,7 +153,7 @@ export default function ProjectsSection() {
 													PostgreSQL Database
 												</text>
 												<text x="295" y="215" textAnchor="middle" className="fill-gray-600 dark:fill-gray-400 text-[12px]">
-													Object Storage (receipts, CSV imports)
+													Object Storage
 												</text>
 											</g>
 
