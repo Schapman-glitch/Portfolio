@@ -16,7 +16,7 @@ export default function ProjectsSection() {
 				</motion.h2>
 
 				<div className="space-y-16">
-					{/* E-commerce Platform */}
+					{/* Personal Finance Tracker */}
 					<motion.div
 						initial={{ opacity: 0, y: 20 }}
 						whileInView={{ opacity: 1, y: 0 }}
@@ -27,9 +27,9 @@ export default function ProjectsSection() {
 							<div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
 								<div className="space-y-6">
 									<div>
-										<h3 className="text-2xl font-bold mb-4 text-gray-900 dark:text-white">Enterprise E-commerce Platform</h3>
+										<h3 className="text-2xl font-bold mb-4 text-gray-900 dark:text-white">Personal Finance Tracker</h3>
 										<p className="text-gray-600 dark:text-gray-400">
-											A high-performance e-commerce solution handling 100K+ daily transactions with real-time inventory and ML-powered recommendations.
+											Full-stack app to track expenses, budgets, and monthly summaries with charts and CSV import.
 										</p>
 									</div>
 
@@ -37,19 +37,19 @@ export default function ProjectsSection() {
 										<div>
 											<h4 className="text-sm font-semibold text-blue-600 dark:text-blue-400 mb-3">Frontend Architecture</h4>
 											<ul className="space-y-2 text-sm text-gray-600 dark:text-gray-400">
-												<li>• Next.js Server Components</li>
-												<li>• Real-time Cart & Inventory</li>
-												<li>• Stripe Payment Integration</li>
-												<li>• PWA with Offline Support</li>
+												<li>• Next.js App Router with React</li>
+												<li>• TailwindCSS for responsive UI</li>
+												<li>• Chart.js for expense visualizations</li>
+												<li>• CSV import and category tagging interface</li>
 											</ul>
 										</div>
 										<div>
 											<h4 className="text-sm font-semibold text-purple-600 dark:text-purple-400 mb-3">Backend Systems</h4>
 											<ul className="space-y-2 text-sm text-gray-600 dark:text-gray-400">
-												<li>• Node.js Microservices</li>
-												<li>• Redis Caching Layer</li>
-												<li>• Kafka Event Streaming</li>
-												<li>• Elasticsearch Product Search</li>
+												<li>• Node.js and Express REST API</li>
+												<li>• PostgreSQL with Prisma ORM</li>
+												<li>• JWT authentication for secure sessions</li>
+												<li>• Vercel on frontend and Railway/Render backend</li>
 											</ul>
 										</div>
 									</div>
@@ -57,9 +57,9 @@ export default function ProjectsSection() {
 									<div className="space-y-3">
 										<h4 className="text-sm font-semibold text-teal-600 dark:text-teal-400">Key Achievements</h4>
 										<ul className="space-y-2 text-sm text-gray-600 dark:text-gray-400">
-											<li>• 99.99% Uptime with Blue-Green Deployment</li>
-											<li>• 300ms Average API Response Time</li>
-											<li>• 45% Reduction in Infrastructure Costs</li>
+											<li>• Helped automate monthly expense tracking and reduced manual bookkeeping by 90%</li>
+											<li>• Real-time category summaries and budget alerts improved financial visibility</li>
+											<li>• Clean modular architecture makes it easy to expand e.g., adding bank API integration</li>
 										</ul>
 									</div>
 								</div>
@@ -81,7 +81,7 @@ export default function ProjectsSection() {
 													strokeWidth="1"
 												/>
 												<text x="200" y="45" textAnchor="middle" className="fill-gray-600 dark:fill-gray-400 text-[12px]">
-													Next.js Frontend (SSR + Client Components)
+													Next.js Frontend (App Router + Client Components)
 												</text>
 											</g>
 
@@ -106,10 +106,10 @@ export default function ProjectsSection() {
 													strokeWidth="1"
 												/>
 												<text x="105" y="105" textAnchor="middle" className="fill-gray-600 dark:fill-gray-400 text-[12px]">
-													Product Service
+													Transactions Service
 												</text>
 												<text x="295" y="105" textAnchor="middle" className="fill-gray-600 dark:fill-gray-400 text-[12px]">
-													Order Service
+													Budgets Service
 												</text>
 											</g>
 
@@ -150,10 +150,10 @@ export default function ProjectsSection() {
 													strokeWidth="1"
 												/>
 												<text x="105" y="215" textAnchor="middle" className="fill-gray-600 dark:fill-gray-400 text-[12px]">
-													Product DB (PostgreSQL)
+													PostgreSQL Database
 												</text>
 												<text x="295" y="215" textAnchor="middle" className="fill-gray-600 dark:fill-gray-400 text-[12px]">
-													Order DB (MongoDB)
+													Object Storage (receipts, CSV imports)
 												</text>
 											</g>
 
@@ -169,7 +169,7 @@ export default function ProjectsSection() {
 													strokeWidth="1"
 												/>
 												<text x="200" y="270" textAnchor="middle" className="fill-gray-600 dark:fill-gray-400 text-[12px]">
-													Elasticsearch Product Search
+													JWT Authentication Service
 												</text>
 											</g>
 
