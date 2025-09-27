@@ -189,7 +189,7 @@ export default function ProjectsSection() {
 						</div>
 					</motion.div>
 
-					{/* Real-time Analytics Platform */}
+					{/* AI learning Recommender System */}
 					<motion.div
 						initial={{ opacity: 0, y: 20 }}
 						whileInView={{ opacity: 1, y: 0 }}
@@ -200,9 +200,9 @@ export default function ProjectsSection() {
 							<div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
 								<div className="space-y-6">
 									<div>
-										<h3 className="text-2xl font-bold mb-4 text-gray-900 dark:text-white">Real-time Analytics Platform</h3>
+										<h3 className="text-2xl font-bold mb-4 text-gray-900 dark:text-white">AI Learning Recommender System</h3>
 										<p className="text-gray-600 dark:text-gray-400">
-											A scalable analytics platform processing 1M+ events per minute with real-time dashboards and ML-powered insights.
+											An AI learning recommender that displays learning progress with recommendations and analytics
 										</p>
 									</div>
 
@@ -210,19 +210,19 @@ export default function ProjectsSection() {
 										<div>
 											<h4 className="text-sm font-semibold text-blue-600 dark:text-blue-400 mb-3">Frontend Features</h4>
 											<ul className="space-y-2 text-sm text-gray-600 dark:text-gray-400">
-												<li>• Real-time Data Visualization</li>
-												<li>• Interactive Dashboards</li>
-												<li>• Custom Chart Components</li>
-												<li>• Data Export Tools</li>
+												<li>• Nexts.js dashboard</li>
+												<li>• TailwindCSS</li>
+												<li>• Interactive UI</li>
+												<li>• Data analytics</li>
 											</ul>
 										</div>
 										<div>
 											<h4 className="text-sm font-semibold text-purple-600 dark:text-purple-400 mb-3">Backend Pipeline</h4>
 											<ul className="space-y-2 text-sm text-gray-600 dark:text-gray-400">
-												<li>• Apache Kafka Streams</li>
-												<li>• ClickHouse Analytics DB</li>
-												<li>• Python Data Processing</li>
-												<li>• Redis Time Series</li>
+												<li>• Fast API</li>
+												<li>• Recommendation Engine</li>
+												<li>• PostgreSQL</li>
+												<li>• Vector Database</li>
 											</ul>
 										</div>
 									</div>
@@ -230,9 +230,9 @@ export default function ProjectsSection() {
 									<div className="space-y-3">
 										<h4 className="text-sm font-semibold text-teal-600 dark:text-teal-400">Performance Metrics</h4>
 										<ul className="space-y-2 text-sm text-gray-600 dark:text-gray-400">
-											<li>• 1M+ Events/Minute Processing</li>
-											<li>• Sub-second Query Response</li>
-											<li>• 99.99% Data Accuracy</li>
+											<li>• Delivered 85% accurate recommendations compared to curated sets.</li>
+											<li>• Dynamic progress tracking adjusts recommendations over time.</li>
+											<li>• Scalable design: services are containerized for easy deployment.</li>
 										</ul>
 									</div>
 								</div>
@@ -271,13 +271,13 @@ export default function ProjectsSection() {
 													strokeWidth="1"
 												/>
 												<text x="75" y="40" textAnchor="middle" className="fill-gray-600 dark:fill-gray-400 text-[12px]">
-													Web Events
+													Learning Content 
 												</text>
 												<text x="200" y="40" textAnchor="middle" className="fill-gray-600 dark:fill-gray-400 text-[12px]">
-													Mobile Events
+													User Signals
 												</text>
 												<text x="325" y="40" textAnchor="middle" className="fill-gray-600 dark:fill-gray-400 text-[12px]">
-													API Events
+													Taxonomies
 												</text>
 											</g>
 
@@ -293,7 +293,7 @@ export default function ProjectsSection() {
 													strokeWidth="1"
 												/>
 												<text x="200" y="105" textAnchor="middle" className="fill-gray-600 dark:fill-gray-400 text-[12px]">
-													Kafka Event Streaming
+													Recommendation Engine
 												</text>
 											</g>
 
@@ -318,10 +318,10 @@ export default function ProjectsSection() {
 													strokeWidth="1"
 												/>
 												<text x="105" y="175" textAnchor="middle" className="fill-gray-600 dark:fill-gray-400 text-[12px]">
-													Stream Processing
+													St
 												</text>
 												<text x="295" y="175" textAnchor="middle" className="fill-gray-600 dark:fill-gray-400 text-[12px]">
-													Batch Processing
+													Progress Tracking
 												</text>
 											</g>
 
@@ -346,10 +346,10 @@ export default function ProjectsSection() {
 													strokeWidth="1"
 												/>
 												<text x="105" y="240" textAnchor="middle" className="fill-gray-600 dark:fill-gray-400 text-[12px]">
-													ClickHouse
+													Vector Store
 												</text>
 												<text x="295" y="240" textAnchor="middle" className="fill-gray-600 dark:fill-gray-400 text-[12px]">
-													Redis Time Series
+													PostgreSQL
 												</text>
 											</g>
 
@@ -365,7 +365,7 @@ export default function ProjectsSection() {
 													strokeWidth="1"
 												/>
 												<text x="200" y="290" textAnchor="middle" className="fill-gray-600 dark:fill-gray-400 text-[12px]">
-													GraphQL API Layer
+													Custom API Layer
 												</text>
 											</g>
 
