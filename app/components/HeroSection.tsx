@@ -23,7 +23,7 @@ export default function HeroSection() {
 							I craft end-to-end solutions with 1 year of experience building scalable applications and team projects.
 						</p>
 						<p className="text-base md:text-lg text-gray-500 max-w-2xl mx-auto">
-							Current student at <span className="text-blue-600 dark:text-blue-400">California State, San Marcos</span> and persuing a professinal certificate at{' '}
+							Current student at <span className="text-blue-600 dark:text-blue-400">California State San Marcos</span> and persuing a professinal certificate at{' '}
 							<span className="text-purple-600 dark:text-purple-400">Codecademy</span>
 						</p>
 					</div>
